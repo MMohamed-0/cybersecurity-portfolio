@@ -25,8 +25,14 @@ Testing Enviroment
 
 Evidence
  Screenshots included showing:
-  - Script execution in PyCharm
-  - Scan results displaying open ports
+  - Script execution in PyCharm (screenshots/run_example.png)
+  - Scan results displaying open ports (screenshots/results.png)
+  The screenshots demonstrate successful execution of the tool against an authorised local test enviroment (127.0.0.1). 
+
+Future Improvements
+- Multithreaded scanning
+- Service detection
+- Output to file
 
 Disclaimer
   This tool was created for educational purposes only and was tested exclusively on 
