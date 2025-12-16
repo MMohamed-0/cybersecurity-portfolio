@@ -29,5 +29,5 @@ Evidence
   - Scan results displaying open ports
 
 Disclaimer
-  This tool was createdfor educational purposes only and was tested exclusively on 
+  This tool was created for educational purposes only and was tested exclusively on 
   systems I own or have explicit permission to test.
