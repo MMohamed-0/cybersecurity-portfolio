@@ -16,6 +16,7 @@
     - nmap
     - whois
     - nslookup
+    - ping
 
 ## How The Script Works 
   1. Accepts a target IP or hostname as input
@@ -23,11 +24,12 @@
   3. Runs multiple reconnaissance tools against the target:
      - Nmap for port and service discovery
      - Whois for registration infomation
-     - Nslookup for DNS resolution 
-  5. Saves the output of each toolinto separate, clearly named files for later analysis 
+     - Nslookup for DNS resolution
+     - Ping for testing connectivity by sending exactly four packets
+  5. Saves the output of each tool into separate, clearly named files for later analysis 
 
 ## Improvments and Updates 
- The reconassiance tool has been updated to include the creation of a report within a .md file instead of having results show directly on the terminal. The .md file can be found in a created directory named 'recon-report-(IP address)'. The IP address is IP you have inputted to be scanned. 
+ The reconassiance tool has been updated to include the creation of a report within a .md file instead of having results show into multiple .txt files. The .md file can be found in a created directory named 'recon-report-(IP address)'. The IP address is IP you have inputted to be scanned. 
 
 
 ## Ethical Use
