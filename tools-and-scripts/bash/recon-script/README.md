@@ -26,6 +26,10 @@
      - Nslookup for DNS resolution 
   5. Saves the output of each toolinto separate, clearly named files for later analysis 
 
+## Improvments and Updates 
+ The reconassiance tool has been updated to include the creation of a report within a .md file instead of having results show directly on the terminal. The .md file can be found in a created directory named 'recon-report-(IP address)'. The IP address is IP you have inputted to be scanned. 
+
+
 ## Ethical Use
  This script was tested only against:
  - Localhost (127.0.0.1)
@@ -35,6 +39,7 @@
 
 
 
+ 
 
 
 
